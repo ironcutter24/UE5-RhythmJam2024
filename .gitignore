@@ -72,3 +72,16 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# FMOD and extra ignore
+Plugins/Developer
+!Plugins/FMODStudio/Binaries/**
+!Plugins/FMODStudioNiagara/Binaries/**
+FMODStudio/Intermediate
+#FMOD_Project/.cache
+#FMOD_Project/.unsaved
+#FMOD_Project/.user
+#FMOD_Project/Metadata/ProfilerSession
+#FMOD_Project/Metadata/ProfilerFolder
+Plugins/FMODStudio/.DS_Store
+*.idea
