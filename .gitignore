@@ -46,8 +46,13 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
+#Binaries/*
 Plugins/*/Binaries/*
+
+Binaries/Win64/*
+!Binaries/Win64/UnrealEditor-RhythmJam2024.dll
+!Binaries/Win64/RhythmJam2024Editor.target
+!Binaries/Win64/UnrealEditor.modules
 
 # Builds
 Build/*
